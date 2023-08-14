@@ -198,6 +198,7 @@
 		width: 100vw;
 		padding: 0 30upx 30upx;
 		background-color: #bcdfdf;
+		z-index:999999;
 		
 		.logo{
 			padding-top: 20upx;

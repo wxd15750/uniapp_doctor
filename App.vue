@@ -14,7 +14,7 @@
 
 <style lang="scss">
 	/*每个页面公共css */
-	@import url('./static/iconfont/iconfont.scss');
 	@import "@/uni_modules/uview-ui/index.scss";
+	@import url('./static/iconfont/iconfont.scss');
 	
 </style>
