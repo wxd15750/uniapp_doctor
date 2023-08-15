@@ -194,6 +194,7 @@
 		padding: 0 30upx;
 		background-color: #ccc;
 		height: calc(100vh - 400upx);
+		overflow: hidden;
 		.navCard{
 			margin: 20upx 0;
 			display: flex;

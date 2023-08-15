@@ -3,7 +3,7 @@ import App from './App'
 // #ifndef VUE3
 import Vue from 'vue'
 import uView from '@/uni_modules/uview-ui'
-
+	
 
 import './uni.promisify.adaptor'
 Vue.config.productionTip = false
@@ -14,6 +14,7 @@ const app = new Vue({
 
 
 Vue.use(uView)
+// Vue.component("DocotrList")
 app.$mount()
 // #endif
 
