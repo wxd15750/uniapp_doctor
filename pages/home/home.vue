@@ -4,7 +4,7 @@
 			<view class="logo">
 				<image class="Img" src="../../static/logo.png" mode=""></image>
 			</view>
-			<view class="searchInp">
+			<view class="searchInp" @click="toSearch">
 				<text  class="iconfont icon icon-fenxiang"></text>
 				<text class="shopTip">输入关键字搜索医师</text>
 			</view>
@@ -147,7 +147,11 @@
 			DcoctorList
 		},
 		methods: {
-
+			toSearch(){
+				uni.navigateTo({
+					url:"/pages/search/search"
+				})
+			}
 		}
 	}
 </script>
