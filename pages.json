@@ -3,7 +3,7 @@
 		{
 			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "首页",
 				"backgroundColor": "#F8F8F8"
 			}
 		}
@@ -29,10 +29,19 @@
             "path" : "pages/search/search",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "搜索",
                 "enablePullDownRefresh": false,
 				"navigationStyle": "custom"
 				
+            }
+            
+        }
+        ,{
+            "path" : "pages/doctorDetail/doctorDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医生详情",
+                "enablePullDownRefresh": false
             }
             
         }

@@ -126,7 +126,7 @@
 	}
 	
 	.main{
-		padding: 0 20upx;
+		padding: 0 30upx;
 		margin-top: 130upx;
 		box-sizing: border-box;
 		height: calc(100vh - 100upx);

@@ -1,6 +1,6 @@
 <template>
 	<view class="doctor_bd">
-		<view class="doctorItem">
+		<view class="doctorItem" @click="toDoctorDetail">
 			<view class="doctorImg">
 				<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
 			</view>
@@ -56,6 +56,13 @@ export default {
 	name: 'DocotrList',
 	data() {
 		return {};
+	},
+	methods:{
+		toDoctorDetail(){
+			uni.navigateTo({
+				url:'/pages/doctorDetail/doctorDetail'
+			})
+		}
 	}
 };
 </script>
