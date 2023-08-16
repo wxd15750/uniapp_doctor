@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<view class="header">
-			<view class="arr_r">
+			<view class="arr_r" @click="goback">
 				<text class="iconfont icon-arrow-left-01-sharp"></text>
 			</view>
 			<view class="search">
@@ -51,6 +51,8 @@
 						
 					</view>
 				</view>
+				
+				<DcoctorList></DcoctorList>
 			</view>
 		</view>
 		
@@ -59,11 +61,22 @@
 </template>
 
 <script>
+	import DcoctorList from '../../components/docotrList/docotrList.vue'
 	export default {
 		data() {
 			return {
 				
 			};
+		},
+		components:{
+			DcoctorList
+		},
+		methods:{
+			goback(){
+				uni.switchTab({
+					url:"/pages/home/home"
+				})
+			}
 		}
 	}
 </script>
@@ -148,6 +161,7 @@
 		
 		.recomm{
 			margin-top: 40upx;
+			margin-bottom: 20upx;
 			.recom_title{
 				display: flex;
 				align-items: center;
