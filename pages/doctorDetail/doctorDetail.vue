@@ -69,6 +69,11 @@
 			</view>
 		</view>
 		
+		<view class="tabs">
+			<u-tabs :list="list1"></u-tabs>
+			
+		</view>
+		
 		<view class="btn">
 			<view class="context">
 				预约服务
@@ -81,7 +86,17 @@
 	export default {
 		data() {
 			return {
-				
+				list1: [
+					{
+				        name: '关注',
+				    },
+					{
+				        name: '推荐',
+				    }, 
+					{
+				        name: '电影'
+				    },
+				]
 			};
 		}
 	}
@@ -240,6 +255,11 @@
 		}
 	}
 	
+	.tabs{
+		margin-top: 20upx;
+		width: 100vw;
+		background-color: #fff;
+	}
 	
 	.btn{
 		position: fixed;
