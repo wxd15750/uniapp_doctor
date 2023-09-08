@@ -98,25 +98,7 @@
 				
 				<DcoctorList></DcoctorList>
 					
-					<!-- <view class="doctorItem">
-						<view class="doctorImg">
-							<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
-						</view>
-						<view class="doctorInfo">
-							<view class="doctor_name">
-								<text class="names">张碧晨</text>
-								<text class="remark">5.0</text>
-							</view>
-							<view class="skill">
-								<text class="job_name">副主任医师</text>
-								<text class="productment">外科</text>
-							</view>
-							
-						</view>
-						<view class="mark">
-							有号
-						</view>
-					</view> -->
+					
 					
 					
 				
@@ -156,10 +138,11 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .content {
 	width: 100vw;
 	height: 100%;
+	box-sizing: border-box;
 	.header {
 		box-sizing: border-box;
 		position: fixed;
@@ -169,7 +152,6 @@
 		padding: 0 30upx 30upx;
 		background-color: #bcdfdf;
 		z-index:999999;
-		
 		.logo{
 			padding-top: 20upx;
 			height: 100upx;
@@ -202,6 +184,7 @@
 		height: calc(100vh - 230upx);
 		margin-top: 230upx;
 		padding: 0 30upx;
+		// overflow-y: auto;
 		.navList{
 			display: flex;
 			justify-content: space-between;

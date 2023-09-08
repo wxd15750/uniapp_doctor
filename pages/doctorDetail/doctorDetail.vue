@@ -2,7 +2,9 @@
 	<view class="container">
 		<view class="bannerImg">
 			<image class="Img" src="../../static/logo.png" mode=""></image>
-			<text class="shoubtn">收藏按钮</text>
+			<text class="shoubtn ">
+				<text class="iconfont icon-shoucang"></text>
+			</text>
 		</view>
 		
 		<view class="doctorIntro">
@@ -70,7 +72,18 @@
 		</view>
 		
 		<view class="tabs">
-			<u-tabs :list="list1"></u-tabs>
+			<!-- tab切换区 -->
+			<view class="tabs_taggle">
+				<text class="tab_item">医师简介</text>
+				<text class="tab_item active">患者评价</text>
+				<text class="tab_item">健康问答</text>
+			</view>
+			
+			<!-- <view class="content-info"> -->
+				<!-- <doctorInfo></doctorInfo> -->
+				<!-- <reCode></reCode> -->
+				<Health></Health>
+			<!-- </view> -->
 			
 		</view>
 		
@@ -83,21 +96,21 @@
 </template>
 
 <script>
+	// 导入公共组件
+	import doctorInfo from './components/doctorInfo.vue'
+	import reCode from './components/reCode.vue'
+	import Health from './components/Health.vue'
 	export default {
 		data() {
 			return {
-				list1: [
-					{
-				        name: '关注',
-				    },
-					{
-				        name: '推荐',
-				    }, 
-					{
-				        name: '电影'
-				    },
-				]
+				
 			};
+		},
+		components:{
+			doctorInfo,
+			reCode,
+			Health,
+			
 		}
 	}
 </script>
@@ -125,9 +138,12 @@
 			position: absolute;
 			top: 20upx;
 			right: 24upx;
-			width: 40upx;
-			height: 40upx;
+			width: 50upx;
+			height: 50upx;
 			border-radius: 50%;
+			text-align: center;
+			line-height: 46upx;
+			color:#fff;
 			background-color: rgba(0, 0, 0, .2);
 		}
 		
@@ -259,6 +275,32 @@
 		margin-top: 20upx;
 		width: 100vw;
 		background-color: #fff;
+		// height: 500upx;
+		.tabs_taggle{
+			display: flex;
+			width: 100vw;
+			height: 100upx;
+			justify-content: space-around;
+			align-items: center;
+			border-bottom: 2upx solid #cacaca;
+			.tab_item{
+				// width: 100%;
+				height: 100%;
+				text-align: center;
+				line-height: 100upx;
+				color:#ccc;
+				&.active{
+					color: #3c9cff;
+					border-bottom: 2rpx solid #3c9cff;
+				}
+			}
+			
+		}
+		
+		.content-info{
+			width: 100vw;
+			height: 100vh;
+		}
 	}
 	
 	.btn{
@@ -268,6 +310,8 @@
 		width: 100%;
 		padding: 20upx;
 		box-sizing: border-box;
+		// z-index: 99999;
+		background-color: #fff;
 		.context{
 			background-color: #414dff;
 			color:#fff;

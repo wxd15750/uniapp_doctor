@@ -109,8 +109,8 @@
 		justify-content: center;
 		align-items: flex-end;
 		width: 100%;
-		height: 400upx;
-		background-color: #00ffff;
+		height: 300upx;
+		background-color: #f2fff0;
 		padding: 0 30upx;
 		box-sizing: border-box;
 		.card{
@@ -120,7 +120,7 @@
 			padding:40upx 30upx;
 			width: 100%;
 			height: 200upx;
-			background-color: #ffff00;
+			background-color: #59c0ff;
 			border-radius: 20upx;
 			.userAvator{
 				display: flex;
@@ -192,7 +192,7 @@
 	}
 	.main{
 		padding: 0 30upx;
-		background-color: #ccc;
+		background-color: #efefef;
 		height: calc(100vh - 400upx);
 		overflow: hidden;
 		.navCard{

@@ -181,7 +181,7 @@
 				.desc{
 					font-size:24upx;
 					color:#d9d9d9;
-					padding: 0 30upx;
+					padding: 0 24upx;
 				}
 			}
 		}

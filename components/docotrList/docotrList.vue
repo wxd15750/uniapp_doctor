@@ -16,7 +16,7 @@
 			</view>
 			<view class="mark">有号</view>
 		</view>
-		<view class="doctorItem">
+		<view class="doctorItem"  @click="toDoctorDetail">
 			<view class="doctorImg">
 				<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
 			</view>
@@ -32,7 +32,7 @@
 			</view>
 			<view class="mark">有号</view>
 		</view>
-		<view class="doctorItem">
+		<view class="doctorItem"  @click="toDoctorDetail">
 			<view class="doctorImg">
 				<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
 			</view>
@@ -48,6 +48,108 @@
 			</view>
 			<view class="mark">有号</view>
 		</view>
+		<view class="doctorItem"  @click="toDoctorDetail">
+			<view class="doctorImg">
+				<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+			</view>
+			<view class="doctorInfo">
+				<view class="doctor_name">
+					<text class="names">刘亦菲</text>
+					<text class="remark">5.0</text>
+				</view>
+				<view class="skill">
+					<text class="job_name">副主任医师</text>
+					<text class="productment">心理科</text>
+				</view>
+			</view>
+			<view class="mark">有号</view>
+		</view>
+			
+			<view class="doctorItem"  @click="toDoctorDetail">
+				<view class="doctorImg">
+					<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+				</view>
+				<view class="doctorInfo">
+					<view class="doctor_name">
+						<text class="names">刘亦菲</text>
+						<text class="remark">5.0</text>
+					</view>
+					<view class="skill">
+						<text class="job_name">副主任医师</text>
+						<text class="productment">心理科</text>
+					</view>
+				</view>
+				<view class="mark">有号</view>
+			</view>
+				
+				<view class="doctorItem"  @click="toDoctorDetail">
+					<view class="doctorImg">
+						<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+					</view>
+					<view class="doctorInfo">
+						<view class="doctor_name">
+							<text class="names">刘亦菲</text>
+							<text class="remark">5.0</text>
+						</view>
+						<view class="skill">
+							<text class="job_name">副主任医师</text>
+							<text class="productment">心理科</text>
+						</view>
+					</view>
+					<view class="mark">有号</view>
+				</view>
+					
+					<view class="doctorItem"  @click="toDoctorDetail">
+						<view class="doctorImg">
+							<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+						</view>
+						<view class="doctorInfo">
+							<view class="doctor_name">
+								<text class="names">刘亦菲</text>
+								<text class="remark">5.0</text>
+							</view>
+							<view class="skill">
+								<text class="job_name">副主任医师</text>
+								<text class="productment">心理科</text>
+							</view>
+						</view>
+						<view class="mark">有号</view>
+					</view>
+						
+						<view class="doctorItem"  @click="toDoctorDetail">
+							<view class="doctorImg">
+								<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+							</view>
+							<view class="doctorInfo">
+								<view class="doctor_name">
+									<text class="names">刘亦菲</text>
+									<text class="remark">5.0</text>
+								</view>
+								<view class="skill">
+									<text class="job_name">副主任医师</text>
+									<text class="productment">心理科</text>
+								</view>
+							</view>
+							<view class="mark">有号</view>
+						</view>
+							
+							<view class="doctorItem"  @click="toDoctorDetail">
+								<view class="doctorImg">
+									<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+								</view>
+								<view class="doctorInfo">
+									<view class="doctor_name">
+										<text class="names">刘亦菲</text>
+										<text class="remark">5.0</text>
+									</view>
+									<view class="skill">
+										<text class="job_name">副主任医师</text>
+										<text class="productment">心理科</text>
+									</view>
+								</view>
+								<view class="mark">有号</view>
+							</view>
+								
 	</view>
 </template>
 
@@ -67,7 +169,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .doctor_bd{
 	width: 100%;
 	margin-top: 20upx;
@@ -76,7 +178,7 @@ export default {
 	flex-wrap: wrap;
 	.doctorItem{
 		position: relative;
-		width: 48%;
+		width: 328upx;
 		height: 300upx;
 		border-radius: 20upx;
 		margin-bottom:20upx;
@@ -91,7 +193,7 @@ export default {
 		}
 		.doctorInfo{
 			position: absolute;
-			width: 274upx;
+			width: 272upx;
 			left: 0;
 			bottom:0;
 			border-radius: 20upx 20upx 0 0;
