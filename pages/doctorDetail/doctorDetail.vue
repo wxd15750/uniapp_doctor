@@ -79,11 +79,9 @@
 				<text class="tab_item">健康问答</text>
 			</view>
 			
-			<!-- <view class="content-info"> -->
 				<!-- <doctorInfo></doctorInfo> -->
-				<!-- <reCode></reCode> -->
-				<Health></Health>
-			<!-- </view> -->
+				<reCode></reCode>
+				<!-- <Health></Health> -->
 			
 		</view>
 		
@@ -274,6 +272,7 @@
 	.tabs{
 		margin-top: 20upx;
 		width: 100vw;
+		padding-bottom: 36upx;
 		background-color: #fff;
 		// height: 500upx;
 		.tabs_taggle{

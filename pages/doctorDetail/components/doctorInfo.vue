@@ -1,6 +1,7 @@
 <template>
 	<view class="doctorPic">
-		医生简介图片
+		<image class="doctorImg" src="../../../static/images/dpctorinfo2.jpg" mode=""></image>
+		<image class="doctordes" src="../../../static/images/doctorInfo.jpeg" mode=""></image>
 	</view>
 </template>
 
@@ -9,8 +10,16 @@
 
 <style lang="scss" >
 	.doctorPic{
+		margin-bottom: 80upx;
 		width: 100vw;
-		height: 100vh;
-		background-color: #ff4add;
+		// height: 100vh;
+		.doctorImg{
+			width: 100%;
+			height: 500upx;
+		}
+		.doctordes{
+			width: 100%;
+			height: 400upx;
+		}
 	}
 </style>

@@ -1,6 +1,11 @@
 <template>
 	<view class="recode">
-		患者评论
+		<view class="remarktag">
+			<text class="tagItem">全部</text>
+		</view>
+		<view class="remarkList">
+			
+		</view>
 	</view>
 	
 </template>
@@ -11,7 +16,14 @@
 <style lang="scss">
 	.recode{
 		width: 100vw;
-		height: 500upx;
+		padding: 0 20upx;
 		background-color: #aa45df;
+		.remarktag{
+			width: 100%;
+			margin-top: 20upx;
+		}
+		.remarkList{
+			
+		}
 	}
 </style>
