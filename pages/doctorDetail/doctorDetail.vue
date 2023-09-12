@@ -80,8 +80,8 @@
 			</view>
 			
 				<!-- <doctorInfo></doctorInfo> -->
-				<reCode></reCode>
-				<!-- <Health></Health> -->
+				<!-- <reCode></reCode> -->
+				<Health></Health>
 			
 		</view>
 		
@@ -287,19 +287,16 @@
 				height: 100%;
 				text-align: center;
 				line-height: 100upx;
-				color:#ccc;
+				color:#999999;
 				&.active{
-					color: #3c9cff;
-					border-bottom: 2rpx solid #3c9cff;
+					color: #0097ff;
+					border-bottom: 2rpx solid #4991e8;
 				}
 			}
 			
 		}
 		
-		.content-info{
-			width: 100vw;
-			height: 100vh;
-		}
+		
 	}
 	
 	.btn{

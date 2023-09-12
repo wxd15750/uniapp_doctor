@@ -13,6 +13,7 @@
 		margin-bottom: 80upx;
 		width: 100vw;
 		// height: 100vh;
+		background-color: #fff;
 		.doctorImg{
 			width: 100%;
 			height: 500upx;

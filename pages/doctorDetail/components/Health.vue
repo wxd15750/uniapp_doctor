@@ -1,6 +1,13 @@
 <template>
 	<view class="health">
-		健康问答
+		<u-empty
+		        mode="data"
+		        icon="http://cdn.uviewui.com/uview/empty/car.png"
+				iconSize="120"
+				iconColor="#77caff"
+				text="暂无数据"
+		>
+		</u-empty>
 	</view>
 </template>
 
@@ -10,6 +17,7 @@
 <style lang="scss">
 	.health{
 		width: 100vw;
-		background-color: #dd452a;
+		margin-bottom: 132upx;
+		background-color: #ffffff;
 	}
 </style>
