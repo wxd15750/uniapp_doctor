@@ -73,15 +73,15 @@
 		
 		<view class="tabs">
 			<!-- tab切换区 -->
-			<view class="tabs_taggle">
-				<text class="tab_item">医师简介</text>
-				<text class="tab_item active">患者评价</text>
-				<text class="tab_item">健康问答</text>
+			<view class="tabs_taggle"  >
+				<text class="tab_item" @click="tabToggle" :data-type="1">医师简介</text>
+				<text class="tab_item" @click="tabToggle" :data-type="2">患者评价</text>
+				<text class="tab_item" @click="tabToggle" :data-type="3">健康问答</text>
 			</view>
 			
-				<!-- <doctorInfo></doctorInfo> -->
-				<!-- <reCode></reCode> -->
-				<Health></Health>
+				<doctorInfo v-show="currentIndex===1"></doctorInfo>
+				<reCode  v-show="currentIndex===2"></reCode>
+				<Health  v-show="currentIndex===3"></Health>
 			
 		</view>
 		
@@ -101,8 +101,15 @@
 	export default {
 		data() {
 			return {
-				
+				currentIndex:1
 			};
+		},
+		methods:{
+			tabToggle(e){
+				
+				this.currentIndex = e.currentTarget.dataset.type;
+				console.log(this.currentIndex);
+			}
 		},
 		components:{
 			doctorInfo,
