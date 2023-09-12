@@ -74,9 +74,9 @@
 		<view class="tabs">
 			<!-- tab切换区 -->
 			<view class="tabs_taggle"  >
-				<text class="tab_item" @click="tabToggle" :data-type="1">医师简介</text>
-				<text class="tab_item" @click="tabToggle" :data-type="2">患者评价</text>
-				<text class="tab_item" @click="tabToggle" :data-type="3">健康问答</text>
+				<text :class="['tab_item',currentIndex==1 ? 'active' : '']" @click="tabToggle" :data-type="1">医师简介</text>
+				<text  :class="['tab_item',currentIndex==2 ? 'active' : '']" @click="tabToggle" :data-type="2">患者评价</text>
+				<text  :class="['tab_item',currentIndex==3 ? 'active' : '']" @click="tabToggle" :data-type="3">健康问答</text>
 			</view>
 			
 				<doctorInfo v-show="currentIndex===1"></doctorInfo>
