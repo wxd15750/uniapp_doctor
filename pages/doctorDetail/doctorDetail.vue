@@ -85,11 +85,15 @@
 			
 		</view>
 		
-		<view class="btn">
+		<view class="btn" @click="openPopup" >
 			<view class="context">
 				预约服务
 			</view>
 		</view>
+		<!-- 弹出层 -->
+		<u-popup :show="show" mode="bottom"  @close="close">
+		    <Popup></Popup>
+		</u-popup>
 	</view>
 </template>
 
@@ -98,24 +102,34 @@
 	import doctorInfo from './components/doctorInfo.vue'
 	import reCode from './components/reCode.vue'
 	import Health from './components/Health.vue'
+	import Popup from './components/Popup.vue'
 	export default {
 		data() {
 			return {
-				currentIndex:1
+				currentIndex:1,
+				show:false,
 			};
 		},
 		methods:{
+			// 打开弹出框
+			openPopup(){
+				this.show=!this.show
+				console.log(this.show);
+			},
+			close() {
+			    this.show = false
+			},
+			// tab切换
 			tabToggle(e){
-				
 				this.currentIndex = e.currentTarget.dataset.type;
-				console.log(this.currentIndex);
+				// console.log(this.currentIndex);
 			}
 		},
 		components:{
 			doctorInfo,
 			reCode,
 			Health,
-			
+			Popup
 		}
 	}
 </script>
@@ -326,5 +340,7 @@
 			border-radius: 10upx;
 		}
 	}
+	
+	
 }
 </style>
