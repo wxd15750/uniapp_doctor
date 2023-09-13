@@ -29,7 +29,7 @@
 		</view>
 		
 		<view class="main">
-			<view class="navCard">
+			<view class="navCards">
 				<view class="navCard">
 					挂号记录
 				</view>
@@ -102,16 +102,15 @@
 <style lang="scss">
 .container{
 	width: 100%;
-	height: 100%;
 	box-sizing: border-box;
 	.header{
 		display: flex;
 		justify-content: center;
 		align-items: flex-end;
 		width: 100%;
-		height: 300upx;
-		background-color: #f2fff0;
-		padding: 0 30upx;
+		height: 398upx;
+		background-color: #d2ebff;
+		padding:0 30upx ;
 		box-sizing: border-box;
 		.card{
 			display: flex;
@@ -119,8 +118,8 @@
 			box-sizing: border-box;
 			padding:40upx 30upx;
 			width: 100%;
-			height: 200upx;
-			background-color: #59c0ff;
+			height: 220upx;
+			background-color: #0099ea;
 			border-radius: 20upx;
 			.userAvator{
 				display: flex;
@@ -164,12 +163,12 @@
 					.sessions{
 						display: flex;
 						justify-content: space-around;
-						font-size:24upx;
+						font-size:20upx;
 						align-items: center;
 						width: 170upx;
 						height: 50upx;
 						text-align:center;
-						background-color: rgba(0, 0, 0, .4);
+						background-color: #0095dc;
 						border-radius: 30upx;
 						padding:0 10upx;
 						.mannger{
@@ -184,6 +183,7 @@
 							line-height: 26upx;
 							.iconfont{
 								font-size:24upx;
+								color: rgba(0,0,0,0.3);
 							}
 						}
 					}
@@ -192,11 +192,11 @@
 	}
 	.main{
 		padding: 0 30upx;
-		background-color: #efefef;
-		height: calc(100vh - 400upx);
+		background-color: #f5f5f5;
+		height: calc(100vh - 398upx);
 		overflow: hidden;
-		.navCard{
-			margin: 20upx 0;
+		.navCards{
+			margin: 50upx 0;
 			display: flex;
 			justify-content: space-between;
 			.navCard{
@@ -205,16 +205,16 @@
 				align-items: center;
 				width: 330upx;
 				height: 154upx;
-				background-color: #afd6ff;
+				background-color: #cbe7ff;
 				border-radius: 20upx;
 				font-weight: 700;
 				font-size: 32upx;
-				color:#377e9f;
+				color:#0066ca;
 			}
 		}
 		.serve{
 			box-sizing: border-box;
-			padding:30upx 20upx 40upx;
+			padding:40upx 20upx 40upx;
 			background-color: #fff;
 			width: 100%;
 			// height: 200upx;
@@ -222,7 +222,7 @@
 			.serve_header{
 				font-size: 32upx;
 				font-weight: 700;
-				color:#000;
+				color:#333333;
 			}
 			.serve_bd{
 				width: 100%;
@@ -231,7 +231,7 @@
 				justify-content: space-between;
 				.serve_bdItem{
 					display: flex;
-					margin-top: 40upx;
+					margin-top: 60upx;
 					flex-direction: column;
 					justify-content: space-between;
 					align-items: center;

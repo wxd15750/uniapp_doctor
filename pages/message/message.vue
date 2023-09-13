@@ -50,7 +50,7 @@
 		align-items: center;
 		width: 100%;
 		height: 84upx;
-		background-color: #cdd7ff;
+		background-color: #e0f0ff;
 		border-radius: 10upx;
 		.arr_right{
 			width: 30upx;
@@ -93,7 +93,7 @@
 				}
 				.content{
 					font-size: 24upx;
-					color: #bcc1bf;
+					color: #8f9399;
 				}
 			}
 			

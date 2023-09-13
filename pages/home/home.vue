@@ -95,16 +95,9 @@
 					我的
 					<text class="light">医生</text>
 				</view>
-				
+		
 				<DcoctorList></DcoctorList>
-					
-					
-					
-					
-				
 			</view>
-			
-			
 		</view>
 		
 	</view>
@@ -143,6 +136,7 @@
 	width: 100vw;
 	height: 100%;
 	box-sizing: border-box;
+	
 	.header {
 		box-sizing: border-box;
 		position: fixed;
@@ -150,7 +144,7 @@
 		left: 0;
 		width: 100vw;
 		padding: 0 30upx 30upx;
-		background-color: #bcdfdf;
+		background-color: #d9eeff;
 		z-index:999999;
 		.logo{
 			padding-top: 20upx;
@@ -194,7 +188,7 @@
 				width: 160upx;
 				height: 160upx;
 				border-radius: 30upx;
-				background-color: #4a4a4a;
+				background-color: #0398eb;
 				justify-content: center;
 				.navtitle{
 					font-size: 30upx;
@@ -212,7 +206,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			background-color: #c5cdff;
+			background-color: #deedff;
 			border-radius: 20upx;
 			.infoLeft{
 				.leftup{
@@ -223,7 +217,7 @@
 						.names{
 							font-weight: 700;
 							font-size: 38upx;
-							color:#282828;
+							color:#596e83;
 							margin-right: 20upx;
 						}
 						.btn{
@@ -233,19 +227,19 @@
 							text-align: center;
 							color:#fff;
 							border-radius: 0upx 20upx 0upx 20upx;
-							background-color: #1573ff;
+							background-color: #0088ff;
 						}
 					}
 					.telCode{
 						font-size: 28upx;
-						color:#909090;
+						color:#5e81a1;
 						.tel{
 							font-size: 24upx;
 						}
 					}
 				}
 				.leftdown{
-					color: #00aaff;
+					color: #0088ff;
 					margin-top: 16upx;
 					font-size: 24upx;
 				}
@@ -267,6 +261,7 @@
 			border:2upx solid #c1d1d1;
 			border-radius: 20upx;
 			padding:0 20upx;
+			// background-color: #ffffff;
 			.serve_header{
 				display: flex;
 				justify-content: space-between;
@@ -282,7 +277,7 @@
 					
 				}
 				.active{
-					background-color: #00aaff;
+					background-color: #33acf1;
 					color:#fff;
 				}
 				
@@ -331,7 +326,7 @@
 					width: 30upx;
 					height: 10upx;
 					border-radius: 10upx;
-					background-color: #00aaff;
+					background-color: #12acf9;
 				}
 			}
 		}
@@ -354,22 +349,14 @@
 				height: 60upx;
 				line-height: 60upx;
 				border-radius: 30upx;
-				background-image:linear-gradient(to right, #f8f7ff 10%, #d2e0ff);
-				color:#747474;
+				background-image:linear-gradient(to right, #fafdff 10%, #d6f1ff);
+				color:#033450;
 				font-size:28upx;
 				.light{
-					color:#319cff;
+					color:#40b6ff;
 				}
 			}
-			// .doctor_bd{
-			// 	// margin-top: 20upx;
-			// 	// display: flex;
-			// 	// justify-content: space-between;
-			// 	// flex-wrap: wrap;
-			// 	// .doctorList{
-			// 	// 	width: 274upx;
-			// 	// }
-			// }
+			
 			
 		}
 		

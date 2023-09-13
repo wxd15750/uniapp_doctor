@@ -93,6 +93,8 @@
 		left: 0;
 		height: 100upx;
 		box-sizing: border-box;
+		z-index: 99999;
+		background-color: #fff;
 		.arr_r{
 			margin: 0 20upx;
 			height: 50upx;
@@ -140,7 +142,6 @@
 			.hotmain{
 				display: flex;
 				flex-wrap: wrap;
-				
 				width: 100%;
 				margin-top: 20upx;
 				.hot_item{
@@ -152,9 +153,9 @@
 					line-height: 40upx;
 					text-align: center;
 					border-radius: 10upx;
-					background-color: #f1f0b8;
+					background-color: #faf1ea;
 					font-size: 24upx;
-					color:#cc7122;
+					color:#ff8811;
 				}
 			}
 		}
@@ -169,18 +170,18 @@
 				height: 40upx;
 				// background-color: #cc7122;
 				.line_left{
-					height: 4upx;
+					height: 2upx;
 					width: 230upx;
 					background-image: linear-gradient(to right, #fff,#bfbfbf);
 				}
 				.line_right{
-					height: 4upx;
+					height: 2upx;
 					width: 230upx;
 					background-image: linear-gradient(to right, #bfbfbf,#fff);
 				}
 				.desc{
 					font-size:24upx;
-					color:#d9d9d9;
+					color:#bec2cc;
 					padding: 0 24upx;
 				}
 			}

@@ -2,7 +2,7 @@
 	<view class="doctor_bd">
 		<view class="doctorItem" @click="toDoctorDetail">
 			<view class="doctorImg">
-				<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+				<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 			</view>
 			<view class="doctorInfo">
 				<view class="doctor_name">
@@ -18,7 +18,7 @@
 		</view>
 		<view class="doctorItem"  @click="toDoctorDetail">
 			<view class="doctorImg">
-				<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+				<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 			</view>
 			<view class="doctorInfo">
 				<view class="doctor_name">
@@ -34,7 +34,7 @@
 		</view>
 		<view class="doctorItem"  @click="toDoctorDetail">
 			<view class="doctorImg">
-				<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+				<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 			</view>
 			<view class="doctorInfo">
 				<view class="doctor_name">
@@ -50,7 +50,7 @@
 		</view>
 		<view class="doctorItem"  @click="toDoctorDetail">
 			<view class="doctorImg">
-				<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+				<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 			</view>
 			<view class="doctorInfo">
 				<view class="doctor_name">
@@ -67,7 +67,7 @@
 			
 			<view class="doctorItem"  @click="toDoctorDetail">
 				<view class="doctorImg">
-					<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+					<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 				</view>
 				<view class="doctorInfo">
 					<view class="doctor_name">
@@ -84,7 +84,7 @@
 				
 				<view class="doctorItem"  @click="toDoctorDetail">
 					<view class="doctorImg">
-						<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+						<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 					</view>
 					<view class="doctorInfo">
 						<view class="doctor_name">
@@ -101,7 +101,7 @@
 					
 					<view class="doctorItem"  @click="toDoctorDetail">
 						<view class="doctorImg">
-							<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+							<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 						</view>
 						<view class="doctorInfo">
 							<view class="doctor_name">
@@ -118,7 +118,7 @@
 						
 						<view class="doctorItem"  @click="toDoctorDetail">
 							<view class="doctorImg">
-								<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+								<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 							</view>
 							<view class="doctorInfo">
 								<view class="doctor_name">
@@ -135,7 +135,7 @@
 							
 							<view class="doctorItem"  @click="toDoctorDetail">
 								<view class="doctorImg">
-									<image class="doctor_avator" src="../../static/logo.png" mode=""></image>
+									<!-- <image class="doctor_avator" src="../../static/logo.png" mode=""></image> -->
 								</view>
 								<view class="doctorInfo">
 									<view class="doctor_name">
@@ -186,6 +186,7 @@ export default {
 			width: 100%;
 			height: 100%;
 			border-radius: 20upx;
+			background-color: #8bc4ff;
 			.doctor_avator{
 			width: 100%;
 			height: 100%;
@@ -198,7 +199,7 @@ export default {
 			bottom:0;
 			border-radius: 20upx 20upx 0 0;
 			padding: 20upx 30upx;
-			background-image:linear-gradient(to right, #b9e9ff, #e5f8ff);
+			background-image:linear-gradient(to right, #b2dcff, #e1f1ff);
 			.doctor_name{
 				display: flex;
 				align-items: center;
@@ -238,6 +239,7 @@ export default {
 			color:#fff;
 			text-align: center;
 			line-height:36upx;
+			border: none;
 			
 		}
 	}
