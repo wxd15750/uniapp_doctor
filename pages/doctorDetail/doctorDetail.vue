@@ -175,7 +175,7 @@
 		left: 0;
 		width: 100vw;
 		height: 90upx;
-		background-color: #bcd6ff;
+		background-color: #c6e4ff;
 		.doctorInfo{
 			position: absolute;
 			bottom: 0;
@@ -183,7 +183,7 @@
 			padding: 20upx 30upx 20upx 30upx;
 			box-sizing: border-box;
 			width: 300upx;
-			background-color: #a1e2ff;
+			background-color: #c4e4ff;
 			.username{
 				font-size: 32upx;
 				
@@ -195,7 +195,7 @@
 					padding: 0 10upx;
 					height: 30upx;
 					line-height: 30upx;
-					color:#ff7423;
+					color:#ff9730;
 					margin-left: 4upx;
 				}
 			}
@@ -214,8 +214,8 @@
 				width: 50upx;
 				text-align:center;
 				height: 30upx;
-				background-color: #ffd08e;
-				color: #ff8c08;
+				background-color: #ffeddf;
+				color: #ff8811;
 				font-size: 20upx;
 				margin-right: 10upx;
 			}
@@ -232,16 +232,16 @@
 			.doctors{
 				padding: 10upx 5upx;
 				font-size: 20upx;
-				color:#3f70cc;
-				background-color: rgba(119, 167, 208, 0.2);
+				color:#00a3ff;
+				background-color: #d9edff;
 				margin-right: 10upx;
 			}
 			.doctorSkill{
 				box-sizing: border-box;
 				font-size: 28upx;
-				color:#a4b3ab;
+				color:#999999;
 				.textDetail{
-					color:#3f70cc;
+					color:#0088ff;
 					border-bottom:2upx solid #3f70cc;
 					
 				}
@@ -257,9 +257,9 @@
 				height: 40upx;
 				line-height: 40upx;
 				font-size:24upx;
-				color: #414dff;
+				color: #0088ff;
 				padding: 0 20upx;
-				background-color: #84a9cc;
+				background-color: #d9edff;
 				border-radius: 10upx;
 				
 			}
@@ -271,12 +271,12 @@
 			justify-content: space-around;
 			align-items: center;
 			width: 100%;
-			background-color: #fff3af;
+			background-color: #fff0e4;
 			border-radius: 10upx;
 			box-sizing: border-box;
 			padding: 30upx 40upx;
 			.dataItems{
-				color:#614903;
+				color:#835435;
 				height: 100%;
 				font-weight: 700;
 				text-align: center;
